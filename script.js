@@ -1,5 +1,5 @@
 // URL de tu Web App desplegada en Google Apps Script
-const url = "https://script.google.com/macros/s/AKfycbzbs-DCqAyTroMdWXwnrjK1T-4HW6BnZmBShN_TAelNofbzQt2d9pUH2Q_9QG5wO-nTLQ/exec"; // Reemplaza con tu URL
+const url = "https://script.google.com/macros/s/AKfycbzux-Ux7gM449c4wNMnwy1Rw0m9cF6Z8Xkyi0TTCqf5pruE61XqNYq4A5Vp-ws7x-fcJA/exec"; // Reemplaza con tu URL
 
 // Lista de invitados con sus cupos asignados
 const invitados = {
