@@ -18,16 +18,17 @@ body {
 /* Estilos para los títulos y textos */
 h1 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 p {
     font-size: 18px;
 }
 
-/* Estilos para los inputs (más angostos: 50% en vez de 80%) */
+/* Estilos para los inputs y textarea */
 input[type="text"],
-input[type="number"] {
+input[type="number"],
+textarea {
     width: 50%;
     padding: 10px;
     font-size: 16px;
@@ -35,13 +36,16 @@ input[type="number"] {
     border-radius: 5px;
     border: none;
     text-align: center;
+    background-color: #bdbdbd; /* Fondo gris claro */
+    color: #0d1828;              /* Texto negro */
+    resize: none;             /* Deshabilitar la opción de redimensionar */
 }
 
 /* Estilos para los botones (Continuar y Enviar) */
 button {
     background-color: #0d1828;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #bdbdbd;
+    border: 2px solid #bdbdbd;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -58,7 +62,6 @@ button:hover {
 /* Efecto al presionar el botón */
 button:active {
     background-color: #0d1828;
-    color: #fff;
 }
 
 /* Contenedor de los botones de radio */
@@ -94,10 +97,24 @@ button:active {
 
 /* Estilo cuando el botón de radio está seleccionado */
 .radio-container input[type="radio"]:checked + .radio-label {
-    background-color: #0d1828;
-    color: #bdbdbd;
+    background-color: #bdbdbd;
+    color: #0d1828;
     border: 2px solid #bdbdbd;
     font-weight: bold;
     transform: scale(1.05);
-    box-shadow: 0px 0px 8px #0d1828;
+    box-shadow: 0px 0px 8px #bdbdbd;
+}
+
+/* Estilo adicional para el campo de texto cuando el usuario no asiste (caja de mensaje) */
+textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #bdbdbd;
+    color: #0d1828; /* Texto negro */
+    resize: none;
 }
