@@ -1,6 +1,6 @@
 // Establecer la fecha del evento y desbloqueo
 const eventDate = new Date("April 19, 2025 20:30:00").getTime();
-const unlockDate = new Date("March 31, 2025 00:00:00").getTime(); // Fecha de desbloqueo del enlace
+const unlockDate = new Date("March 1, 2025 00:00:00").getTime(); // Fecha de desbloqueo del enlace
 
 // Obtener el enlace de la invitación
 const invitationLink = document.getElementById("invitation-link");
